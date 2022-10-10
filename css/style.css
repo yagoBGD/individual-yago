@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+body{
+    background: black url(../img/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.navesq{
+    width: 33%;
+    float: left;
+    background-color: #4a4a4a;
+    
+}
+
+.navesq li {
+    display: inline;
+    margin-left: 20%;
+    
+}
+
+.navesq li a{
+    color: white;
+    text-decoration:none ;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+.navcentro{
+    width: 34%;
+    float: left;
+    background-color: red;
+}
+
+.navcentro h1 {
+    display: inline;
+    font-size: 250%;
+    margin-left: 25%;
+}
+
+.navcentro h1 a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+}
+
+.navdir{
+    width: 33%;
+    float: right;
+    background-color: #4a4a4a;
+    
+}
+
+.navdir li{
+    display: inline;
+    margin-left: 20%;
+}
+
+.navdir li a{
+    color: white;
+    text-decoration:none ;
+    font-weight: bold;
+}
+
+.foto{
+    width: 45%;
+    height: 50%;
+    padding-top: 5%;
+    margin-left: 5%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.fotothr{
+    width: 50%;
+    height: 70%;
+    padding-top: 5%;
+    margin-left: 5%;
+    float: left;
+    margin-bottom: 10%;
+}
+
+.foto img{
+    border-radius: 10%;
+}
+
+.euinicio{
+    width: 45%;
+    float: right;
+    margin-right:5%;
+    margin-top: 15%;
+    padding-top: 5%;
+}
+
+.eucontato{
+    width: 45%;
+    float: right;
+    margin-right:5%;
+    margin-top: 5%;
+    padding-top: 0%;
+    
+}
+
+.eucontato h2{
+    color: white;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40%;
+}
+
+.euhobbies{
+    width: 40%;
+    float: right;
+    margin-right:5%;
+    padding-top: 3%;
+}
+
+.euhobbies h2{
+    color: white;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 35%;
+}
+
+.euinicio h2{
+    color: white;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.navesq :hover{
+    color: aqua;
+    transition: 0.3s;
+}
+
+.navdir :hover{
+    color: aqua;
+    transition: 0.3s;
+}
+
+.navcentro :hover,:active{
+    color: white;
+    transition: 0.3s;
+}
+
+/*inicio footer*/
+
+.footer{
+    clear: both;
+}
+
+.social-footer {
+    padding: 0% 10%;
+    background-color: rgba(49, 47, 47, 0.842);
+    color: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+            opacity: 100%
+  }
+  
+  .social-footer .social-footer-icons li:last-of-type {
+    margin-right: 0%;
+  }
+  
+  .social-footer .social-footer-icons .fa {
+    font-size: 1.3rem;
+    color: #fefefe;
+  }
+  
+  .social-footer .social-footer-icons .fa:hover {
+    color: aqua;
+    transition: color 0.3s ease-in;
+  }
+
+  .social-footer-icons li{
+    display: inline;
+  }
+
+  .social-footer-left p{
+    font-size: 100%;
+    color: white;
+  }
+
+  .social-footer-left :hover{
+    color: aqua;
+    transition: 0.1s;
+  }
+
+  /*fim do footer*/
+
+  .sobremim{
+    width: 45%;
+    float: right;
+    margin-right:5%;
+    margin-top: 0%;
+    padding-top: 10%;
+  }
+
+  .sobremim h2{
+    color: white;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+
+  .sobre{
+    color: white;
+    font-size: 150%;
+    padding-top: 5%;
+    font-weight: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .hobbie{
+    color: white;
+    font-size: 150%;
+    padding-top: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+
+
+
+  /*formulario */
+  .formulario { 
+
+    max-width:480px; 
+    margin:50px auto; 
+
+}
+
+.campo {
+
+  color: black;
+  font-family: 'open_sansregular';
+  font-size: 16px;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: white;
+  border: 2px solid aqua;
+  transition: all 0.3s;
+  padding: 11px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+
+}
+
+.campo:focus { 
+
+    border: 2px solid #10ADDD; 
+    color: black;
+}
+
+textarea {
+
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+
+}
+
+
+.botao {
+
+  font-family: 'open_sansregular';
+  width: 100%;
+  background:aqua;
+  color: black;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  font-size:22px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+
+}
+
+.botao:hover { background:#414141; }
+
+  
